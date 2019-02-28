@@ -15,7 +15,7 @@ set(SOURCE
     h_common.h h_common.cpp 
     hfold_validation.h hfold_validation.cpp 
     hfold.h HFold.cpp
-)
+        consensus_sequence.cpp consensus_sequence.h)
 
 # pass SIMFOLD_HOME to binary
 set(SIMFOLD_HOME ${CMAKE_SOURCE_DIR}/simfold)
